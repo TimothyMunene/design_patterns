@@ -155,10 +155,13 @@ class PickleRepository(AbstractRepository):
         </iframe>
    
     </embed>
-
-================== 
-Questions
-1 What is the difference between the textbook test services.py and my test services.py?
+================
+   Title: Repository Design Pattern
+================
+================
+   Questions
+================
+   1 What is the difference between the textbook test services.py and my test services.py?
   The test book test services is an interface and relies on flask framework to work while the other one is
   custom for testing a new idea
 2 Has the service layer been affected after we have chosen to use another implementation for the Repository Pattern? 
@@ -168,10 +171,17 @@ Questions
 3  What is the benefit of separating business logic from infrastructure concerns? Where is the business
     logic defined, and where is the infrastructure defined? Tell me the Python file name(s).
     Its because very easy to maintain the code and aslo to expand it when new features are needed without 
-    breaking the code    
-================== 
+    breaking the code 
 
-==================  
+
+
+ 
+================
+   Conclusion
+================
+The Conclusion here is, its important to keep business logic and the storage code
+decoupled. Also when implemting a repository interface, you should keep an 
+open mind to all the different storage infrustructure that could be available
 
 Indices and tables
 ==================
